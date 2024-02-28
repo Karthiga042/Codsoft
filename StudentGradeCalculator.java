@@ -23,8 +23,7 @@ class Average extends Total
 {
     public double averageMarks(int sum,int subject)
     {
-        int maxmarks=subject*100;
-        double avg=((double)sum/maxmarks)*100;
+        double avg=((double)sum/subject);
         return avg;
     }
 }
