@@ -50,8 +50,8 @@ class ATMInterface
         {
             System.out.println("Enter your choice to perform:");
             System.out.println("1->Check Balance");
-            System.out.println("2->Withdraw Amount");
-            System.out.println("3->Deposit Amount");
+            System.out.println("2->Deposit Amount");
+            System.out.println("3->Withdraw Amount");
             System.out.println("4->Exit the process");
 
             int ch = sc.nextInt();
